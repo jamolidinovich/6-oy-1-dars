@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.header {
+  max-width: 1200px;
+  padding: 20px;
+}
+.nav a {
+  color: #022a1e;
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 16px;
+  font: Roboto;
+  transition: all 0.5s;
+}
+
+.nav .Products {
+  margin-left: 400px;
+}
+.nav .btn {
+  color: #022a1e;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  border: 1px solid black;
+  background: #fff;
+  margin-left: -15px;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-right: 0px;
+}
+.nav .btn:hover {
+  background: #022a1e;
+  color: #fff;
+}
+.login {
+  margin-left: 150px;
+}
+
+.hero {
+  max-width: 1128px;
+  background: #022a1e;
+  border-radius: 10px;
+  padding: 60px;
+  display: flex;
+  margin-left: 80px;
+  margin-bottom: 70px;
+}
+.next {
+  margin-top: 120px;
+}
+
+.next h3 {
+  font-size: 48px;
+  width: 348px;
+  height: 51px;
+  color: #fff;
+}
+.next p {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 15px;
+}
+.next img {
+  margin-top: 30px;
+}
+.nextimg img {
+  margin-left: 140px;
+}
+
+.shop p {
+  font-size: 24px;
+  margin-left: 500px;
+  color: #333333;
+}
+.brend img {
+  margin-right: 64px;
+  margin-top: 10px;
+}
+.brend .pet {
+  margin-left: 250px;
+}
+.brend .imzo {
+  margin-right: 0px;
+  margin-left: 3px;
+}
+.main {
+  max-width: 1128px;
+  background: #f2f7f7;
+  border-radius: 10px;
+  padding-top: 70px;
+  margin-left: 77px;
+  margin-top: 50px;
+}
+.main .h2 {
+  font-size: 48px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+.card {
+  width: 315px;
+  height: 502px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background: #fff;
+}
+
+/* .card img {
+  margin-left: 60px;
+  width: 200px;
+  background: #f2f7f7;
+  height: 300px;
+} */
+
+.card h5 {
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
